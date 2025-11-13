@@ -1,1 +1,3 @@
-# intelligence-operations
+This repo is used for my studies in Cyber Threat Intelligence, as well as a portfolio to show my skills to people who want to work with me.
+
+Here you will find things like: reports, briefings, models that i use for artifacts that are generated from my investigations, PCAP traffic examples and its analysis, scripts, infrastructure and applications configurations that i use do do my job (OpenCTI docker files, docker-compose files, ...), and so on.
