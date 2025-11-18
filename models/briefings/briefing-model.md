@@ -1,57 +1,61 @@
-# TÍTULO DO BRIEFING
-Nome do incidente ou tema – Data
+# BRIEFING TITLE
+Incident or Topic Name – Date
 
-# 1. Sumário Executivo
-[Resumo de 3–5 linhas sobre o que aconteceu, por que importa e o que fazer.]
+# 1. Executive Summary
+[3–5 line summary of what happened, why it matters, and what to do.]
 
-# 2. Contexto
-[Explicação do cenário, histórico e desenvolvimento recente.]
+# 2. Context
+[Explanation of the scenario, history, and recent developments.]
 
-# 3. Escopo
-Inclui:
-- ...
-Não inclui:
+# 3. Scope
+Includes:
 - ...
 
-# 4. Detalhamento Técnico
-4.1 Indicadores Identificados (IOCs)
+Does not include:
+- ...
+
+# 4. Technical Details
+4.1 Identified Indicators (IOCs)
 - IPs:
-- Domínios:
+- Domains:
 - Hashes:
 - URLs:
 
-4.2 Táticas, Técnicas e Procedimentos (MITRE ATT&CK)
-- Tática:
-- Técnica:
+4.2 Tactics, Techniques, and Procedures (MITRE ATT&CK)
+- Tactic:
 
-4.3 Vetor de Ataque
-[Descrição.]
+- Technique:
 
-4.4 Ferramentas/Malware Identificado
-[Descrição.]
+4.3 Attack Vector
+[Description.]
 
-4.5 Detecções e Mitigações Observadas
-- Regras YARA:
-- Regras Sigma:
-- Eventos de Log relevantes:
+4.4 Identified Tools/Malware
+[Description.]
 
-# 5. Avaliação de Impacto
-[Descrição clara dos riscos e setores afetados.]
+4.5 Observed Detections and Mitigations
+- YARA Rules:
 
-# 6. Recomendações
-Alta prioridade:
+- Sigma Rules:
+
+- Log Events Relevant:
+
+# 5. Impact Assessment
+[Clear description of risks and affected sectors.]
+
+# 6. Recommendations
+High priority:
 - ...
 
-Média prioridade:
+Medium priority:
 - ...
 
-Baixa prioridade:
+Low priority:
 - ...
 
-# 7. Conclusão
-[Fechamento com a mensagem-chave e próximos passos.]
+# 7. Conclusion
+[Closing with the key understanding and next steps.]
 
-# 8. Anexos (opcional)
-- Lista completa de IOCs
-- Linha do tempo
-- Mapa de infraestrutura
+# 8. Attachments (optional)
+- Complete list of IOCs
+- Timeline
+- Infrastructure map

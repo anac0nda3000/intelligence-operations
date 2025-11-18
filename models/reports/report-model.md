@@ -1,43 +1,49 @@
-# [Título do Relatório]
-[Nome da campanha, amostra, incidente ou investigação] – [Data]
+# [Report Title]
+[Name of campaign, sample, incident, or investigation] – [Date]
 
-# 1. Objetivo
-[Explique em 1–2 frases o que o relatório analisa.]
-Ex.: Este relatório apresenta uma análise inicial de uma amostra de malware distribuída por meio de e-mails de phishing direcionados ao setor financeiro.
+# 1. Objective
+[Explain in 1–2 sentences what the report analyzes.]
 
-# 2. Contexto
-[Descreva rapidamente o cenário que motivou a análise.]
-Ex.: Nos últimos dias, observou-se aumento no envio de e-mails contendo anexos .doc com macros maliciosas. Amostras similares foram reportadas por [fonte pública], indicando possível campanha coordenada.
+Ex.: This report presents an initial analysis of a malware sample distributed via phishing emails targeting the financial sector.
 
-# 3. Sumário dos Principais Achados
-- [Achado 1]
-- [Achado 2]
-- [Achado 3]
-- [Impacto potencial resumido]
+# 2. Context
+[Briefly describe the scenario that motivated the analysis.]
 
-# 4. Evidências e Detalhes Técnicos
+Ex.: In recent days, there has been an increase in the sending of emails containing .doc attachments with malicious macros. Similar samples were reported by [public source], indicating a possible coordinated campaign.
 
-## 4.1 Indicadores (IOCs)
+# 3. Summary of Key Findings
+- [Finding 1]
+- [Finding 2]
+- [Finding 3]
+- [Summary of Potential Impact]
+
+# 4. Evidence and Technical Details
+
+## 4.1 Indicators (IOCs)
 **Hashes:**
 - MD5:
 - SHA256:
 
-**Endereços IP/Domínios:**
+**IP Addresses/Domains:**
+
 - IP:
-- Domínio:
+- Domain:
 - URL:
 
-## 4.2 Táticas, Técnicas e Procedimentos (MITRE ATT&CK)
-- **Tática:** [Ex. Initial Access]
-- **Técnica:** [Ex. T1566.001 – Spearphishing Attachment]
-- **Descrição curta:** [Explique em 1 frase como essa técnica aparece na campanha.]
+## 4.2 Tactics, Techniques, and Procedures (MITRE ATT&CK)
+- **Tactic:** [Ex. Initial Access]
+- **Technique:** [Ex. T1566.001 – Spearphishing Attachment]
+- **Short Description:** [Explain in one sentence how this technique appears in the campaign.]
 
-## 4.3 Comportamento Observado
-[Descreva em parágrafos curtos ou bullets.]
+## 4.3 Observed Behavior
+[Describe in short paragraphs or bullet points.]
+
 Ex.:
-- O arquivo contém macro VBA que baixa um payload hospedado em domínio comprometido.
-- O malware estabelece persistência via chave Run no registro.
-- Comunicação C2 via HTTP para /update.php.
+- The file contains a VBA macro that downloads a payload hosted on a compromised domain.
 
-## 4.4 Análise Complementar (opcional)
-[Inclua qualquer outra evidência relevante: timeline, fl]()
+- The malware establishes persistence via a Run key in the registry.
+
+- C2 communication via HTTP to /update.php.
+
+## 4.4 Complementary Analysis (optional)
+[Include any other relevant evidence: timeline, fl]()
